@@ -1,4 +1,4 @@
-Music & AI Evolution : From Appreciation to Al Co-Creation
+# Music & AI Evolution : From Appreciation to Al Co-Creation
 
 
 This project is an exploratory data analysis pipeline examining how popular music lyrics have evolved across historical eras alongside the exponential growth of computational power used to train notable audio and AI systems.
@@ -37,18 +37,18 @@ Visualization regarding exponential growth for the models
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-1. How to Install It
+# 1. How to Install It
 
 git clone https://github.com/AndredeMatosDelgado/project-kickoff.git
 cd project-kickoff.git
 
 
-2. Install Dependencies
+# 2. Install Dependencies
 
 pip install pandas numpy requests beautifulsoup4 tqdm curl-cffi matplotlib seaborn python-dotenv lyricsgenius
 
 
-3. Configure Environment Variables
+# 3. Configure Environment Variables
 
 GENIUS_API_KEY=your_genius_access_token_here
 
@@ -56,25 +56,25 @@ GENIUS_API_KEY=your_genius_access_token_here
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-Example Usage
+# Example Usage
 
 
-1. Running the full pipeline
+# 1. Running the full pipeline
 
 This executes the data cleaning, engeneering, filter, pivots and exports with compute AI visualizations
 
 python main.py
 
-2. Scraping Missing Lyrics via Genius API´
+# 2. Scraping Missing Lyrics via Genius API´
 
 To scrape lyrics for songs between 2020 and 2026 with automatic crash-safe JSON checkpointing (genius_lyrics.json), ->uncomment<- the download_lyrics() block in your script.
 
 from main_script import download_lyrics
 
-# Automatically resumes from genius_lyrics.json and skips already-downloaded tracks
+Automatically resumes from genius_lyrics.json and skips already-downloaded tracks
 download_lyrics()
 
-3. Outputs
+# 3. Outputs
 
 Era & Genre Pivot CSVs:
 metrics - (total_words, unique_words, complexity_words, diversity_words, and acousticness)
@@ -87,26 +87,26 @@ AI Compute Datasets & Charts: ai_compute_cleaned.csv, top_music_ai.csv, and ai_c
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-How to Set Up the Dev Environment
+# How to Set Up the Dev Environment
 
-1. Create virtual environment
+# 1. Create virtual environment
 
-# Create virtual environment
+Create virtual environment
 python -m venv venv
 
-# Activate on Mac/Linux
+Activate on Mac/Linux
 source venv/bin/activate
 
-# Activate on Windows
+Activate on Windows
 venv\Scripts\activate
 
 
-2. Install development packages & Jupyter kernel:
+# 2. Install development packages & Jupyter kernel:
 
 pip install pandas numpy requests beautifulsoup4 tqdm curl-cffi matplotlib seaborn python-dotenv lyricsgenius ipykernel
 
 
-3. Verify .gitignore protection:
+# 3. Verify .gitignore protection:
 Confirm that .env, genius_lyrics.json, and raw lyric CSVs are ignored before making edits:
 
 git status
@@ -115,25 +115,25 @@ git status
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-How to Ship a Change
+# How to Ship a Change
 
-1. Create a new branch from main:
+# 1. Create a new branch from main:
 
 git checkout -b feature/your-feature-name
 
 
-2. Make your edits and verify security:
+# 2. Make your edits and verify security:
 Run the pipeline locally to verify there are no errors, and run git status to ensure no .env files or copyrighted lyric datasets are tracked.
 
 
-3. Commit and push your branch:
+# 3. Commit and push your branch:
 Navigate to your repository on GitHub, open a Pull Request from your feature branch into main, review the changes, and merge.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-Change Log
+# Change Log
 
 [1.0.0] - 2026-11-14
 
@@ -148,7 +148,7 @@ Security: Migrated API credentials to .env and configured .gitignore to exclude 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
-License and Author Info
+# License and Author Info
 
 Authors:
 [André Delgado] — [GitHub Profile](https://github.com/AndredeMatosDelgado)

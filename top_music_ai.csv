@@ -1,0 +1,6 @@
+System,Year,Compute_FLOPs
+AudioGen,2023,9500000.0
+Whisper,2022,4207266.5
+wave2vec 2.0 LARGE,2020,3870720.0
+AudioLM,2023,3900.0
+MUSIC perceptron,1996,0.0008817336

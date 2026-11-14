@@ -1,0 +1,11 @@
+.env
+*.env
+genius_lyrics.json
+genius_lyrics.json.tmp
+genius_lyrics.csv
+billboard_top_100_1946_2022_lyrics.csv
+billboard_merged_lyrics.csv
+hot100.csv
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

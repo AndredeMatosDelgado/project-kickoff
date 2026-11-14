@@ -1,4 +1,5 @@
 # Music & AI Evolution : From Appreciation to Al Co-Creation
+[![View Presentation](https://via.placeholder.com/800x450.png?text=Click+to+View+Presentation)](https://canva.link/6exh8v4h4lnd59n)
 
 
 This project is an exploratory data analysis pipeline examining how popular music lyrics have evolved across historical eras alongside the exponential growth of computational power used to train notable audio and AI systems.
